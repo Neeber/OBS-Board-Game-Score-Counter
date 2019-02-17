@@ -1,0 +1,134 @@
+body{
+    font-family: sans-serif;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+/*VIEWER PAGE STYLING*/
+
+#viewerBody{
+    background-color: transparent;
+    /*color: white;*/
+    font-family: Raleway;
+    font-size: 16pt;
+    font-weight: 900;
+    height: 720px;
+    width: 1280px;
+    /*border: 1px solid red;*/
+    background-image: url(/scoreboard/scoreboardbg.png);
+    background-repeat:no-repeat;
+    margin: 0;
+}
+
+.viewerDetails{
+    float:left;
+    /*border: 1px solid black;*/
+    text-align: center;
+    margin-top: 678px;
+    height: 40px;
+    vertical-align: middle;
+    padding-top: 8px;
+}
+
+.viewerName{
+    color: #c8c8c8;
+}
+
+.viewerScore{
+    text-align: center !important;
+}
+
+
+#P1ViewerName{width: 128px; margin-right: 39px;}
+#P2ViewerName{width: 104px; margin-right: 39px;}
+#P3ViewerName{width: 90px; margin-right: 41px;}
+#P4ViewerName{width: 90px; margin-right: 38px;}
+#P5ViewerName{width: 102px; margin-right: 44px;}
+#P6ViewerName{width: 127px;}
+
+#P1ViewerScore{width: 28px; margin-right: 39px;}
+#P2ViewerScore{width: 27px; margin-right: 39px;}
+#P3ViewerScore{width: 25px; margin-right: 82px;}
+#P4ViewerScore{width: 25px; margin-right: 40px;}
+#P5ViewerScore{width: 25px; margin-right: 42px;}
+#P6ViewerScore{width: 25px; margin-right: 40px;}
+
+
+.leftside{text-align: right;}
+
+.rightside{text-align: left;}
+
+/*CONTROL PANEL STYLING*/
+
+#playerControls{
+	border: 1px black solid;
+	width: 670px;
+    height: 598px;
+    padding: 6px 1px 2px 5px;
+	background-color: lightgrey;
+}
+
+#playerTopRow{
+    float: left;
+}
+
+#playerBottomRow{
+    float: left;
+}
+
+.playerControlPanel{
+    border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
+    width: 200px;
+    height: 275px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    float: left;
+	box-shadow: 3px 3px #999;
+}
+
+.scoreBtn{
+    height: 75px;
+    width: 75px;
+    font-size: x-large;
+    font-weight: 800;
+    margin:5px;
+	color: white;
+	border-radius: 8px;
+	box-shadow: 3px 3px #999;
+	cursor: pointer;
+}
+
+.posBtn{
+	background-color: #4CAF50;
+}
+
+.posBtn:hover {background-color: #3e8e41}
+
+.posBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 0 #666;
+  transform: translateY(2px);
+}
+
+.negBtn{
+	background-color: #f44336;
+}
+
+.negBtn:hover {background-color: #c2160a}
+
+.negBtn:active {
+  background-color: #c2160a;
+  box-shadow: 0 0 #666;
+  transform: translateY(2px);
+}
+
+.scoreDiv{
+    font-size: 50px;
+}
