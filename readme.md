@@ -2,6 +2,8 @@
 
 This App uses PHP, AJAX and XML to create my first attempt at create a HTML scoreboard that is controllable by a score controller. Data on the HTML page is read from a XML file that is updated in real time.
 
+> Whilst not the best app, I am proud that this was my first finished product. Created by me, for me.
+
 ## Problems
 1. **Static Player*s** - Only allows for 6 Players (Also Names are not editable)
 2. **Old Frameworks** - Not using up to date code languages
