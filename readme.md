@@ -5,7 +5,7 @@ This App uses PHP, AJAX and XML to create my first attempt at create a HTML scor
 > Whilst not the best app, I am proud that this was my first finished product. Created by me, for me.
 
 ## Problems
-1. **Static Player*s** - Only allows for 6 Players (Also Names are not editable)
+1. **Static Player's** - Only allows for 6 Players (Also Names are not editable)
 2. **Old Frameworks** - Not using up to date code languages
 3. **No Database** - Instead of using a XML file, more information can be stored and called as needed
 
